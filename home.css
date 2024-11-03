@@ -1,0 +1,29 @@
+.background {
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    height: 100hv;
+    color: rgb(17, 1, 1);
+    z-index: -5;
+    margin-top: 0%;
+    top: 0;
+    overflow: hidden;
+    
+}
+
+.background::before {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("artist.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1;
+    opacity: 0.8;
+}
