@@ -1,0 +1,175 @@
+/* pages.css */
+
+/* General body styles */
+body {
+    margin: 0;
+    font-family: 'Rubik Microbe', sans-serif; /* Use your chosen font */
+    background-color: rgb(255, 252, 252); /* Light background for better readability */
+    color: #333; /* Dark text for contrast */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 130px;
+    margin: 0;
+
+
+}
+
+/* General link styles */
+a {
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Button styles */
+button {
+    background-color: #007bff; /* Primary color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Home page styles */
+.home {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.home h1 {
+    font-size: 3em; /* Large title */
+}
+
+/* Idea Board styles */
+.idea-board {
+    padding: 1px;
+}
+
+.idea-board-item {
+    padding: 0%;
+}
+    
+
+
+/* Project styles */
+.project {
+    padding: 20px;
+}
+
+.project-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 1.2em;
+}
+
+/* Collaborate styles */
+.collaborate {
+    background-color: #e9ecef; /* Light gray background */
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.collaborate h2 {
+    color: #0056b3; /* Darker color for headings */
+}
+
+/* Portfolio styles */
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between items */
+    padding: 20px;
+}
+
+/* Settings styles */
+.settings {
+    padding: 20px;
+}
+
+.settings h2 {
+    margin-bottom: 15px;
+}
+imagecontainer {
+    float: right;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+/* src/pages/pages.css */
+.collaborate-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.collaborate-page h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.collaboration-options, .active-projects, .join-community {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.join-community-button {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.join-community-button:hover {
+    background-color: #004a99;
+}
+
+.container {
+    float: left;
+    margin-right: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+text-content h1 {
+    font-size: 1.5em;
+    color: rgb(156, 39, 39);
+    margin: 0;
+}
+text-content p {
+    color: #667;
+    margin-top: 10px;
+}
+
